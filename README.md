@@ -25,7 +25,7 @@ Label Handling: Multilabel simplified to single label (first label or 0)
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/Sentiment_Analysis.git
+git clone https://github.com/Keerthi-Vijaibabu/Sentiment-Analysis.git
 cd Sentiment_Analysis
 pip install -r requirements.txt
 
