@@ -22,17 +22,13 @@ Label Handling: Multilabel simplified to single label (first label or 0)
 
 🖥️ How to Use
 🔧 Installation
-bash
-Copy
-Edit
+
 git clone https://github.com/Keerthi-Vijaibabu/Sentiment-Analysis.git
 cd Sentiment_Analysis
 pip install -r requirements.txt
 
 🏋️‍♀️ Training the Model
-bash
-Copy
-Edit
+
 python main.py
 
 This script will:
@@ -41,16 +37,10 @@ Fine-tune BERT
 Save the model to model1/
 
 📈 Predict Emotions
-bash
-Copy
-Edit
 python pred.py
 You can modify pred.py to pass your own sentences or use the provided test cases.
 
 🖼️ GUI (Optional)
-bash
-Copy
-Edit
 python ui.py
 Launches a simple Tkinter-based UI to input text and visualize emotion predictions.
 
@@ -66,4 +56,5 @@ Disapproval
 📌 To-Do / Future Work
 Improve multilabel support
 Export to ONNX / TFLite for deployment
+
 
